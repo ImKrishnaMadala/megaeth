@@ -1,0 +1,29 @@
+{
+  "name": "megaeth",
+  "version": "0.1.0",
+  "description": "CLI tool for the MegaETH layer 2 blockchain",
+  "main": "index.js",
+  "bin": {
+    "megaeth": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imkrishnamadala/megaeth.git"
+  },
+  "keywords": [
+    "megaeth",
+    "cli",
+    "blockchain",
+    "layer2"
+  ],
+  "author": "Krishna Madala",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imkrishnamadala/megaeth/issues"
+  },
+  "homepage": "https://github.com/imkrishnamadala/megaeth#readme"
+}
+
