@@ -1,10 +1,21 @@
 # MegaETH CLI
 
-CLI tool for the MegaETH L2, coming March 2025
+A robust command-line interface (CLI) for interacting with the MegaETH Layer 2 blockchain. Use this tool for account management, smart contract operations, and network utilities.
 
-## Usage
+## Features
 
-After installing globally (or linking locally), run:
+- **Account Management:**  
+  Create, import, and list accounts.
+
+- **Network Utilities:**  
+  Query account balances, get transaction details/receipts, and request test tokens from a faucet.
+
+
+## Installation
+
+Install globally via npm:
 
 ```bash
-megaeth
+npm install -g megaeth
+
+See available commands with npx megaeth --help

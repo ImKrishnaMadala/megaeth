@@ -1,10 +1,11 @@
 {
   "name": "megaeth",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "CLI tool for the MegaETH layer 2 blockchain",
-  "main": "index.js",
+  "main": "./bin/megaeth.js",
+  "type": "module",
   "bin": {
-    "megaeth": "./cli.js"
+    "megaeth": "./bin/megaeth.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,6 +25,10 @@
   "bugs": {
     "url": "https://github.com/imkrishnamadala/megaeth/issues"
   },
-  "homepage": "https://github.com/imkrishnamadala/megaeth#readme"
+  "homepage": "https://github.com/imkrishnamadala/megaeth#readme",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "ethers": "^6.13.5"
+  }
 }
-
